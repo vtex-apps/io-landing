@@ -1,0 +1,12 @@
+{
+  "io.landing": {
+    "path": "/io",
+    "cname": "vtex.io"
+  },
+  "io.faq": {
+    "path": "/faq"
+  },
+  "io.store-features": {
+    "path": "/store-features"
+  }
+}
