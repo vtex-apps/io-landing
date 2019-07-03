@@ -7,4 +7,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [1.0.0] - 2019-07-03
+
 - Initial implementation based on the one taken from `vtex-apps/landing-pages`.
