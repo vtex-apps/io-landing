@@ -23,7 +23,7 @@ const FeaturesDisplay: FunctionComponent = () => {
             <ul className="flex-ns list t-heading-5 pl0">
               <li className="pr6 pb4 pb0-ns">
                 <a
-                  href="#store-component-apps"
+                  href="/store-features#store-component-apps"
                   className="no-underline c-emphasis dim"
                 >
                   Store Component Apps
@@ -31,7 +31,7 @@ const FeaturesDisplay: FunctionComponent = () => {
               </li>
               <li>
                 <a
-                  href="#store-pixel-apps"
+                  href="/store-features#store-pixel-apps"
                   className="no-underline c-emphasis dim"
                 >
                   Store Pixel Apps
