@@ -7,11 +7,11 @@ import Serverless from './icons/Serverless'
 import Sync from './icons/Sync'
 
 const KeyFeatures = () => (
-  <section className="mv9 mt5-l vh-75-l bg-base c-muted-1 center w-90">
+  <section className="mv9 mt5-l vh-75-l bg-base--inverted c-on-base--inverted center w-90">
     <p className="mb0">
       <FormattedMessage id="io.features.title.small" />
     </p>
-    <p className="t-heading-1 normal w-50-ns mt3">
+    <p className="t-heading-1 w-50-ns mt3">
       <FormattedMessage id="io.features.title" />
     </p>
     <div className="flex flex-column flex-row-l items-center justify-between">

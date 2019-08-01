@@ -7,11 +7,11 @@ import Brands from '../images/Brands.svg'
 const Hero: FunctionComponent = () => {
   return (
     <section
-      className="mb5 pt6 pb8 bg-base c-muted-1 flex flex-column items-center justify-center"
+      className="mb5 pt6 pb8 bg-base--inverted c-on-base--inverted flex flex-column items-center justify-center"
       style={{ backgroundImage: `url(${Brands})` }}
     >
       <p
-        className="tc w-40-ns mb0 mt10 t-heading-1 normal"
+        className="tc w-40-ns mb0 mt10 t-heading-1"
         style={{ fontSize: '5rem' }}
       >
         <FormattedMessage id="io.hero.globalbrands" />
@@ -29,7 +29,7 @@ const Hero: FunctionComponent = () => {
         </a>
       </div>
       <a
-        className="tc c-muted-1 mt5 t-small"
+        className="tc c-on-base--inverted mt5 t-small"
         href="https://www.vtex.com/partner/program/"
       >
         <FormattedMessage id="io.hero.partners" />

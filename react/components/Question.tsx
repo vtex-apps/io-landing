@@ -9,7 +9,7 @@ const Question: FunctionComponent<Question> = ({ questionId }) => {
   return (
     <article className="pa5 mv5">
       <details>
-        <summary className="t-heading-3 c-emphasis normal list">
+        <summary className="t-heading-3 c-emphasis list">
           <FormattedMessage id={`io.faq.${questionId}.summary`} />
         </summary>
         <div className="pa4">

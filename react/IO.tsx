@@ -26,7 +26,7 @@ const Landing: FunctionComponent<InjectedIntlProps> = ({ intl }) => {
         <link rel="icon" href={favicon} />
       </Helmet>
       <Navbar />
-      <main className="w-100">
+      <main className="w-100 bg-base--inverted">
         <Hero />
         <CardGrid />
         <ProductDisplay />

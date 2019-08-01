@@ -7,7 +7,7 @@ import AppStore from './icons/AppStore'
 
 const HowItWorks: FunctionComponent<InjectedIntlProps> = ({ intl }) => {
   return (
-    <section className="flex flex-column flex-row-l items-center justify-between w-90 vh-75-l center c-muted-1 mv7">
+    <section className="flex flex-column flex-row-l items-center justify-between w-90 vh-75-l center c-on-base--inverted mv7">
       <article className="mh7-l mv5 mv0-l">
         <Stack />
         <p className="t-body mb3">
