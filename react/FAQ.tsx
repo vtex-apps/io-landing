@@ -20,10 +20,8 @@ const FAQ: FunctionComponent<InjectedIntlProps> = ({ intl }) => {
         <link rel="icon" href={favicon} />
       </Helmet>
       <Navbar />
-      <main className="w-100 pv10 bg-base--inverted">
-        <h1 className="c-muted-5 t-heading-1 w-90 center">
-          Frequently Asked Questions
-        </h1>
+      <main className="w-100 pv10">
+        <h1 className="t-heading-1 w-90 center">Frequently Asked Questions</h1>
         <QuestionList />
       </main>
       <Footer />

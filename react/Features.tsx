@@ -16,7 +16,7 @@ const FeaturesDisplay: FunctionComponent = () => {
         <link rel="icon" href={favicon} />
       </Helmet>
       <Navbar />
-      <main className="w-100 pv10 bg-base--inverted">
+      <main className="w-100 pv10">
         <div className="flex-ns items-baseline w-90 w-80-ns center mb8">
           <h1 className="c-base t-heading-1 pr7">Store Features</h1>
           <nav>
