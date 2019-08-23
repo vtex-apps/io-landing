@@ -7,11 +7,16 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Changed
+
+- VTEX London office address.
+
 ## [1.0.2] - 2019-08-02
 
 ## [1.0.2-beta] - 2019-08-01
 
 ## [1.0.1] - 2019-07-08
+
 ## Fix
 
 - Broken links on `https://vtex.io/store-features`.
