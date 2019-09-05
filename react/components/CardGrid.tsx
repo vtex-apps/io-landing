@@ -12,7 +12,7 @@ const CardGrid: FunctionComponent = () => {
       icon: <FlowerGround />,
       titleId: 'io.cards.first.title',
       textId: 'io.cards.first.text',
-      link: 'https://help.vtex.com/tracks/vtex-io-getting-started',
+      link: '/docs/getting-started/what-is-vtex-io/1',
     },
     {
       icon: <Video />,
@@ -25,7 +25,7 @@ const CardGrid: FunctionComponent = () => {
       icon: <DesignDev />,
       titleId: 'io.cards.third.title',
       textId: 'io.cards.third.text',
-      link: '/store-features',
+      link: '/docs/components/all',
     },
     {
       icon: <RunningShoes />,

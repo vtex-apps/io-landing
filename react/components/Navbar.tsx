@@ -59,17 +59,14 @@ const Navbar: FunctionComponent<
         <div className="flex-l" hidden={!openNav}>
           <ul className="flex flex-column flex-row-l justify-center list mt0 items-center mb0 relative">
             <li className="mh5 mv5 mv0-l">
-              <a
-                className="link c-on-base--inverted"
-                href="https://docs.google.com/document/d/1ZM0sF22yPxaKZ9jvKWR-h8Ba00shHZS5uWgQmA8Tg7U/edit?usp=sharing"
-              >
+              <Link className="link c-on-base--inverted" to="/docs">
                 {intl.formatMessage({ id: 'io.navbar.learn' })}
-              </a>
+              </Link>
             </li>
             <li className="mh5 mv5 mv0-l">
               <Link
                 className="link c-on-base--inverted"
-                page="io.store-features"
+                to="/docs/components/all"
               >
                 {intl.formatMessage({ id: 'io.navbar.feature-list' })}
               </Link>
