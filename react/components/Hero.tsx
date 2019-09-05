@@ -3,6 +3,7 @@ import { FormattedMessage } from 'react-intl'
 import { Button } from 'vtex.styleguide'
 
 import Brands from '../images/Brands.svg'
+import { Link } from 'vtex.render-runtime'
 
 const Hero: FunctionComponent = () => {
   return (
@@ -20,13 +21,13 @@ const Hero: FunctionComponent = () => {
         <FormattedMessage id="io.hero.resources" />
       </p>
       <div className="mt5">
-        <a href="https://help.vtex.com/tracks/build-a-store-using-vtex-io">
+        <Link to="/docs/getting-started/build-stores-with-vtex-io/1">
           <Button variation="primary">
             <p className="ttu">
               <FormattedMessage id="io.hero.cta" />
             </p>
           </Button>
-        </a>
+        </Link>
       </div>
       <a
         className="tc c-on-base--inverted mt5 t-small"
