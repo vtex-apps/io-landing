@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Changed
+
+- Update links to point to `vtex.io/docs`.
+
 ## [1.0.3] - 2019-08-23
 
 ### Changed
