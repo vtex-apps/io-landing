@@ -71,11 +71,6 @@ const Navbar: FunctionComponent<
                 {intl.formatMessage({ id: 'io.navbar.feature-list' })}
               </Link>
             </li>
-            <li className="mh5 mv5 mv0-l">
-              <Link page="io.faq" className="link c-on-base--inverted">
-                {intl.formatMessage({ id: 'io.navbar.faq' })}
-              </Link>
-            </li>
             {enableLocaleSelector && (
               <li className="flex items-center">
                 <div className="h-100 relative w3">
