@@ -1,7 +1,7 @@
 {
   "vendor": "vtex",
   "name": "io-landing",
-  "version": "1.0.4",
+  "version": "1.1.0",
   "title": "VTEX IO landing page",
   "description": "VTEX IO landing page",
   "builders": {
