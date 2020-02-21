@@ -9,7 +9,13 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [1.1.2] - 2020-02-21
 
+### Changed
+- Improves offices spacing
+
 ## [1.1.1] - 2020-02-21
+
+### Changed
+- Update VTEX offices address
 
 ## [1.1.0] - 2019-12-13
 ### Removed
