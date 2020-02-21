@@ -62,12 +62,12 @@ const Footer: FunctionComponent = () => (
     </div>
     <div className="flex flex-wrap center mv7">
       {VTEXOffices.Offices.map(office => (
-        <div key={office.short} className="ph4 w-20-ns w-50-s">
+        <div key={office.short} className="ph4 w-20-ns w-50-s mb0">
           <p className="t-heading-3">{office.short}</p>
-          <p>{office.address1}</p>
-          <p>{office.address2}</p>
-          {office.address3 && <p>{office.address3}</p>}
-          <p>{office.city}</p>
+          <p className="ma0 mb3">{office.address1}</p>
+          <p className="ma0 mb3">{office.address2}</p>
+          {office.address3 && <p className="ma0 mb3">{office.address3}</p>}
+          <p className="ma0">{office.city}</p>
         </div>
       ))}
     </div>
