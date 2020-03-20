@@ -21,7 +21,7 @@ const Hero: FunctionComponent = () => {
         <FormattedMessage id="io.hero.resources" />
       </p>
       <div className="mt5">
-        <Link to="/docs/getting-started/build-stores-with-vtex-io/1">
+        <Link to="/docs/getting-started/build-stores-with-store-framework/1">
           <Button variation="primary">
             <p className="ttu">
               <FormattedMessage id="io.hero.cta" />
