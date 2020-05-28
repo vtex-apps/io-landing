@@ -1,0 +1,44 @@
+{
+  "compilerOptions": {
+    "types": [
+      "node"
+    ],
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "jsx": "preserve",
+    "lib": [
+      "es2017",
+      "dom"
+    ],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "target": "es2019",
+    "skipLibCheck": true,
+    "strict": true,
+    "typeRoots": [
+      "lib/typings",
+      "router/typings",
+      "plugins/typings",
+      "components/typings"
+    ],
+    "outDir": ".micro/onBuild/cjs",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": false,
+    "declaration": true
+  },
+  "typeAcquisition": {
+    "enable": false
+  },
+  "include": [
+    "index.ts",
+    "lib",
+    "router",
+    "plugins",
+    "components"
+  ],
+  "exclude": [
+    ".micro",
+    "pages"
+  ]
+}
