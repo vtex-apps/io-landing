@@ -42,13 +42,13 @@
   "browser": "./components/index.ts",
   "dependencies": {
     "@loadable/component": "^5.12.0",
-    "@vtex/micro": "^1.1.1-alpha.3",
+    "@vtex/micro": "^1.1.1-alpha.4",
     "@vtex/micro-assets": "^1.1.0",
-    "@vtex/micro-css": "^1.1.0",
-    "@vtex/micro-react": "^1.1.1-alpha.3",
-    "@vtex/micro-react-intl": "^1.0.0",
-    "@vtex/micro-react-router": "^1.1.1-alpha.3",
-    "@vtex/styleguide": "^9.119.0",
+    "@vtex/micro-css": "^1.1.1-alpha.4",
+    "@vtex/micro-react": "^1.1.1-alpha.4",
+    "@vtex/micro-react-intl": "^1.1.1-alpha.4",
+    "@vtex/micro-react-router": "^1.1.1-alpha.4",
+    "@vtex/styleguide": "9.119.0-micro.0",
     "babel-plugin-inline-json-import": "^0.3.2",
     "babel-plugin-transform-remove-imports": "^1.3.2",
     "file-loader": "^6.0.0",
@@ -73,17 +73,5 @@
     "eslint-plugin-react": "^7.20.0",
     "eslint-plugin-standard": "^4.0.1",
     "typescript": "^3.9.3"
-  },
-  "resolutions": {
-    "@vtex/micro": "portal:/Users/gimenes/Documents/code/vtex/micro/packages/micro",
-    "@vtex/micro-cli": "portal:/Users/gimenes/Documents/code/vtex/micro/packages/micro-cli",
-    "@vtex/micro-react": "portal:/Users/gimenes/Documents/code/vtex/micro/packages/micro-react",
-    "@vtex/micro-react-intl": "portal:/Users/gimenes/Documents/code/vtex/micro/packages/micro-react-intl",
-    "@vtex/micro-react-router": "portal:/Users/gimenes/Documents/code/vtex/micro/packages/micro-react-router",
-    "@vtex/micro-server": "portal:/Users/gimenes/Documents/code/vtex/micro/packages/micro-server",
-    "simple": "portal:/Users/gimenes/Documents/code/vtex/micro/examples/simple",
-    "@vtex/micro-css": "portal:/Users/gimenes/Documents/code/vtex/micro/packages/micro-css",
-    "@vtex/styleguide": "portal:/Users/gimenes/Documents/code/vtex/styleguide",
-    "@vtex/micro-assets": "portal:/Users/gimenes/Documents/code/vtex/micro/packages/micro-assets"
   }
 }
