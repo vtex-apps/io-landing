@@ -31,7 +31,8 @@
     }
   },
   "scripts": {
-    "build": "yarn run micro build",
+    "build": "yarn run micro build && yarn run micro assemble",
+    "start": "yarn micro serve -p ${PORT}",
     "watch": "yarn run micro link",
     "clean": "rm -r .micro",
     "prepublish": "yarn build"
