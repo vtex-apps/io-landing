@@ -36,5 +36,5 @@ npm-debug.log
 lib
 .eslintrc
 /dist
-
-yarn.lock
+.yarn
+.pnp.*
