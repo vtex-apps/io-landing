@@ -1,5 +1,8 @@
 {
   "name": "io-landing",
+  "vendor": "vtex",
+  "title": "VTEX IO landing page",
+  "description": "VTEX IO landing page",
   "version": "2.0.0",
   "micro": {
     "plugins": [
@@ -56,7 +59,7 @@
     "eslint-plugin-standard": "^4.0.1",
     "typescript": "^3.9.3"
   },
-  "vendor": "vtex",
-  "title": "VTEX IO landing page",
-  "description": "VTEX IO landing page"
+  "engines": {
+    "yarn": "2.x"
+  }
 }
