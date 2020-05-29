@@ -16,9 +16,8 @@
     ]
   },
   "scripts": {
-    "build": "echo built",
-    "build-local": "yarn run micro build && yarn run micro assemble",
-    "watch-local": "yarn run micro link",
+    "build": "yarn run micro build && yarn run micro bundle",
+    "watch": "yarn run micro link",
     "clean": "rm -r dist",
     "start": "yarn micro serve -p ${PORT}"
   },

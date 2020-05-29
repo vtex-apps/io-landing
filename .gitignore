@@ -35,5 +35,6 @@ npm-debug.log
 .build/
 lib
 .eslintrc
+/dist
 
 yarn.lock
