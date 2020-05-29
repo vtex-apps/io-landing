@@ -20,7 +20,6 @@
     "build-local": "yarn run micro build && yarn run micro assemble",
     "watch-local": "yarn run micro link",
     "clean": "rm -r dist",
-    "prepublish": "yarn build",
     "start": "yarn micro serve -p ${PORT}"
   },
   "main": "./dist/build/cjs/index.js",
