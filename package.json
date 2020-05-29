@@ -60,6 +60,6 @@
     "typescript": "^3.9.3"
   },
   "engines": {
-    "yarn": "2.x"
+    "yarn": "1.x"
   }
 }
