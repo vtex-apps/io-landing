@@ -37,4 +37,3 @@ lib
 .eslintrc
 .yarn
 .pnp.*
-/dist

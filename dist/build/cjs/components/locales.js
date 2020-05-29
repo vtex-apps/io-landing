@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:true});exports.locales=void 0;const locales=new Set(["en","pt","fr"]);exports.locales=locales;
