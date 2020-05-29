@@ -22,7 +22,7 @@
       "plugins/typings",
       "components/typings"
     ],
-    "outDir": ".micro/onBuild/cjs",
+    "outDir": "dist/build/cjs",
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": false,
     "declaration": true
@@ -38,7 +38,7 @@
     "components"
   ],
   "exclude": [
-    ".micro",
+    "dist",
     "pages"
   ]
 }

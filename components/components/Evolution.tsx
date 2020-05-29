@@ -1,3 +1,6 @@
+import '../../assets/backgroundEffects.svg'
+import '../../assets/code.png'
+
 import { FormattedMessage } from '@vtex/micro-react-intl'
 import React from 'react'
 

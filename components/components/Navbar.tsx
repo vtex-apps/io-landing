@@ -1,3 +1,5 @@
+import '../../assets/vtexColdGray.svg'
+
 import { useIntl } from '@vtex/micro-react-intl'
 import { Link } from '@vtex/micro-react-router'
 import { IconBars, IconCaretDown, IconCaretUp } from '@vtex/styleguide'

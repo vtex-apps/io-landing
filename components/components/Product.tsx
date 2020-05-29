@@ -1,3 +1,5 @@
+import '../../assets/product.svg'
+
 import { FormattedMessage } from '@vtex/micro-react-intl'
 import React from 'react'
 

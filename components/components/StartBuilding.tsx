@@ -1,3 +1,5 @@
+import '../../assets/illustrationBlue.png'
+
 import { FormattedMessage } from '@vtex/micro-react-intl'
 import { Button } from '@vtex/styleguide'
 import React from 'react'

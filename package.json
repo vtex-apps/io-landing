@@ -1,54 +1,36 @@
 {
-  "vendor": "vtex",
   "name": "io-landing",
   "version": "2.0.0",
-  "title": "VTEX IO landing page",
-  "description": "VTEX IO landing page",
   "micro": {
-    "plugins": {
-      "onAssemble": [
-        "io-landing",
-        "@vtex/micro",
-        "@vtex/micro-css",
-        "@vtex/micro-react",
-        "@vtex/micro-assets",
-        "@vtex/micro-react-router",
-        "@vtex/micro-react-intl"
-      ],
-      "onBuild": [
-        "io-landing",
-        "@vtex/micro",
-        "@vtex/micro-css",
-        "@vtex/micro-react",
-        "@vtex/micro-assets",
-        "@vtex/micro-react-router"
-      ],
-      "onRequest": [
-        "@vtex/micro",
-        "@vtex/micro-react",
-        "@vtex/micro-react-router"
-      ]
-    }
+    "plugins": [
+      "@vtex/micro-core",
+      "io-landing",
+      "@vtex/micro-css",
+      "@vtex/micro-react",
+      "@vtex/micro-assets",
+      "@vtex/micro-react-router",
+      "@vtex/micro-react-intl"
+    ]
   },
   "scripts": {
     "build": "yarn run micro build && yarn run micro assemble",
-    "start": "yarn micro serve -p ${PORT}",
     "watch": "yarn run micro link",
-    "clean": "rm -r .micro",
-    "prepublish": "yarn build"
+    "clean": "rm -r dist",
+    "prepublish": "yarn build",
+    "start": "yarn micro serve -p ${PORT}"
   },
-  "main": "./.micro/onBuild/cjs/index.js",
-  "module": "./.micro/onBuild/es6/components/index.js",
+  "main": "./dist/build/cjs/index.js",
+  "module": "./dist/build/es6/components/index.js",
   "browser": "./components/index.ts",
   "dependencies": {
     "@loadable/component": "^5.12.0",
-    "@vtex/micro": "^1.1.1-alpha.4",
-    "@vtex/micro-assets": "^1.1.0",
-    "@vtex/micro-css": "^1.1.1-alpha.4",
-    "@vtex/micro-react": "^1.1.1-alpha.4",
-    "@vtex/micro-react-intl": "^1.1.1-alpha.4",
-    "@vtex/micro-react-router": "^1.1.1-alpha.4",
-    "@vtex/styleguide": "9.119.0-micro.0",
+    "@vtex/micro-assets": "^1.1.1-alpha.9",
+    "@vtex/micro-core": "^1.1.1-alpha.9",
+    "@vtex/micro-css": "^1.1.1-alpha.9",
+    "@vtex/micro-react": "^1.1.1-alpha.9",
+    "@vtex/micro-react-intl": "^1.1.1-alpha.9",
+    "@vtex/micro-react-router": "^1.1.1-alpha.9",
+    "@vtex/styleguide": "9.119.0-micro.4",
     "babel-plugin-inline-json-import": "^0.3.2",
     "babel-plugin-transform-remove-imports": "^1.3.2",
     "file-loader": "^6.0.0",
@@ -64,7 +46,7 @@
     "@types/webpack-blocks": "^2.0.0",
     "@typescript-eslint/eslint-plugin": "^3.0.2",
     "@typescript-eslint/parser": "^3.0.2",
-    "@vtex/micro-cli": "^1.1.1-alpha.3",
+    "@vtex/micro-cli": "^1.1.1-alpha.9",
     "eslint": "^7.1.0",
     "eslint-config-standard": "^14.1.1",
     "eslint-plugin-import": "^2.20.2",
@@ -73,5 +55,8 @@
     "eslint-plugin-react": "^7.20.0",
     "eslint-plugin-standard": "^4.0.1",
     "typescript": "^3.9.3"
-  }
+  },
+  "vendor": "vtex",
+  "title": "VTEX IO landing page",
+  "description": "VTEX IO landing page"
 }

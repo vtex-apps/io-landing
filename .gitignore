@@ -37,4 +37,4 @@ lib
 .eslintrc
 .yarn
 .pnp.*
-.micro*
+/dist
