@@ -1,0 +1,5 @@
+{
+  "name": "io-landing",
+  "image": "heroku/heroku:18",
+  "addons": []
+}

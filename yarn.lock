@@ -1864,7 +1864,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vtex/micro-assets@npm:^1.1.1-alpha.13, @vtex/micro-assets@npm:^1.1.1-alpha.9":
+"@vtex/micro-assets@npm:^1.1.1-alpha.16":
+  version: 1.1.1-alpha.16
+  resolution: "@vtex/micro-assets@npm:1.1.1-alpha.16"
+  dependencies:
+    "@vtex/micro-core": ^1.1.1-alpha.16
+    babel-plugin-inline-json-import: ^0.3.2
+    babel-plugin-transform-remove-imports: ^1.3.2
+    webpack-blocks: ^2.1.0
+  checksum: 249a942fbb8ff54f8949fa36d3c6a05823d8c9c6c6816b6728f479c543df7aaa07936e7a19b58422e57551b4bb93be36876642ac7104e3e3a93ee10e0c035d7c
+  languageName: node
+  linkType: hard
+
+"@vtex/micro-assets@npm:^1.1.1-alpha.9":
   version: 1.1.1-alpha.13
   resolution: "@vtex/micro-assets@npm:1.1.1-alpha.13"
   dependencies:
@@ -1876,14 +1888,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vtex/micro-cli@npm:^1.1.1-alpha.13":
-  version: 1.1.1-alpha.13
-  resolution: "@vtex/micro-cli@npm:1.1.1-alpha.13"
+"@vtex/micro-cli@npm:^1.1.1-alpha.16":
+  version: 1.1.1-alpha.16
+  resolution: "@vtex/micro-cli@npm:1.1.1-alpha.16"
   dependencies:
     "@babel/core": ^7.9.6
     "@types/babel__core": ^7.1.7
-    "@vtex/micro-core": ^1.1.1-alpha.13
-    "@vtex/micro-server": ^1.1.1-alpha.13
+    "@vtex/micro-core": ^1.1.1-alpha.16
+    "@vtex/micro-server": ^1.1.1-alpha.16
     chalk: ^4.0.0
     chokidar: ^3.4.0
     findhelp: ^1.1.0
@@ -1895,7 +1907,7 @@ __metadata:
     webpack: ^4.43.0
   bin:
     micro: dist/build/cjs/lib/index.js
-  checksum: 2ac2d189892e7c5a003b091afc38338e3a452684fe5b369df305c76414d397fe43e367e549a041d5451af0c7ac694fb38b57e805013389854368182cada83339
+  checksum: 1568e0437366125e9d0b2080257110fe84402708bc9fea6ab4a4d92b35cd8778903b0971344eb4ce70db09c6018fa0ea714100cf07e1a5490b938bc6a51e6e6e
   languageName: node
   linkType: hard
 
@@ -1920,7 +1932,45 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vtex/micro-css@npm:^1.1.1-alpha.13, @vtex/micro-css@npm:^1.1.1-alpha.9":
+"@vtex/micro-core@npm:^1.1.1-alpha.16":
+  version: 1.1.1-alpha.16
+  resolution: "@vtex/micro-core@npm:1.1.1-alpha.16"
+  dependencies:
+    "@babel/core": ^7.10.1
+    "@babel/plugin-proposal-class-properties": ^7.10.1
+    "@babel/plugin-proposal-optional-chaining": ^7.10.1
+    "@babel/preset-env": ^7.10.1
+    "@babel/preset-typescript": ^7.10.1
+    "@yarnpkg/fslib": ^2.0.0-rc.20
+    "@yarnpkg/libzip": ^2.0.0-rc.11
+    fs-extra: ^9.0.0
+    globby: ^11.0.0
+    pnpapi: ^0.0.0
+    ramda: ^0.27.0
+    webpack: ^4.43.0
+    webpack-blocks: ^2.1.0
+  checksum: b11bcfa9357dc0aa07d61106e70ef7d50b88651f8582aa4a34b7214fc55fbaac54bb663a3d9c502ea01b0a4bbfde8de066b1cd563961e8c4c97ae5dd0fabecbb
+  languageName: node
+  linkType: hard
+
+"@vtex/micro-css@npm:^1.1.1-alpha.16":
+  version: 1.1.1-alpha.16
+  resolution: "@vtex/micro-css@npm:1.1.1-alpha.16"
+  dependencies:
+    "@vtex/micro-core": ^1.1.1-alpha.16
+    babel-plugin-ignore-html-and-css-imports: ^0.0.2
+    css-loader: ^3.5.3
+    mini-css-extract-plugin: ^0.9.0
+    optimize-css-assets-webpack-plugin: ^5.0.3
+    purgecss-webpack-plugin: ^2.2.0
+    terser-webpack-plugin: ^3.0.1
+    webpack: ^4.43.0
+    webpack-blocks: ^2.1.0
+  checksum: 67a5a5dbf3f653599c3e94d4420e117a94244000c6ab28f5f72a80b50b0723f74914d75659443595996b4734557b60fb5ac7c3706ac2a93c7796fd43b53295bf
+  languageName: node
+  linkType: hard
+
+"@vtex/micro-css@npm:^1.1.1-alpha.9":
   version: 1.1.1-alpha.13
   resolution: "@vtex/micro-css@npm:1.1.1-alpha.13"
   dependencies:
@@ -1937,12 +1987,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vtex/micro-react-intl@npm:^1.1.1-alpha.13":
-  version: 1.1.1-alpha.13
-  resolution: "@vtex/micro-react-intl@npm:1.1.1-alpha.13"
+"@vtex/micro-react-intl@npm:^1.1.1-alpha.16":
+  version: 1.1.1-alpha.16
+  resolution: "@vtex/micro-react-intl@npm:1.1.1-alpha.16"
   dependencies:
-    "@vtex/micro-core": ^1.1.1-alpha.13
-    "@vtex/micro-react": ^1.1.1-alpha.13
+    "@vtex/micro-core": ^1.1.1-alpha.16
+    "@vtex/micro-react": ^1.1.1-alpha.16
     babel-plugin-react-intl: ^7.5.14
     intl-messageformat-parser: ^5.0.10
     react-intl: ^4.6.0
@@ -1951,16 +2001,16 @@ __metadata:
     "@loadable/component": "*"
     react: "*"
     react-dom: "*"
-  checksum: 11826dfe567d5380e039e4e032ffa2f4eb587cb3969126a32d41a69b75ba21c18c6866e9d10ee37d6f63fcb394ef3f84efe41cd023b3895e5976adeb9bb46cd6
+  checksum: 20808457475e311bd130edf2e6632e00c37d7f88acc407cff6b62001bb714216e9cfe5ed7c0b15f9b708856547e00c48475815ae926fa69dba9bc93dd9c8cccb
   languageName: node
   linkType: hard
 
-"@vtex/micro-react-router@npm:^1.1.1-alpha.13":
-  version: 1.1.1-alpha.13
-  resolution: "@vtex/micro-react-router@npm:1.1.1-alpha.13"
+"@vtex/micro-react-router@npm:^1.1.1-alpha.16":
+  version: 1.1.1-alpha.16
+  resolution: "@vtex/micro-react-router@npm:1.1.1-alpha.16"
   dependencies:
-    "@vtex/micro-core": ^1.1.1-alpha.13
-    "@vtex/micro-react": ^1.1.1-alpha.13
+    "@vtex/micro-core": ^1.1.1-alpha.16
+    "@vtex/micro-react": ^1.1.1-alpha.16
     history: ^4.10.1
     react-in-viewport: ^1.0.0-alpha.11
     react-router-dom: ^5.1.2
@@ -1969,11 +2019,50 @@ __metadata:
     "@loadable/component": "*"
     react: "*"
     react-dom: "*"
-  checksum: 5c9ad0a53b5fc37e0a7d8f2faab622d836402c0eba0ea10b8d86f84a305752552678d8e3a9b0f6987858d2680cf6d8cae82f0283b6308f41f8a41acad95fe564
+  checksum: 8da6756f77f6ec8e4cecac50d20330bee0bb413973c632c576cf50ce9ffc871624cf50b1280e4d8946c28b951b23274450495f94721a90dca77832da5bff2740
   languageName: node
   linkType: hard
 
-"@vtex/micro-react@npm:^1.1.1-alpha.13, @vtex/micro-react@npm:^1.1.1-alpha.9":
+"@vtex/micro-react@npm:^1.1.1-alpha.16":
+  version: 1.1.1-alpha.16
+  resolution: "@vtex/micro-react@npm:1.1.1-alpha.16"
+  dependencies:
+    "@babel/core": ^7.9.6
+    "@babel/plugin-proposal-class-properties": ^7.8.3
+    "@babel/plugin-proposal-optional-chaining": ^7.9.0
+    "@babel/plugin-syntax-dynamic-import": ^7.8.3
+    "@babel/preset-env": ^7.9.6
+    "@babel/preset-react": ^7.9.4
+    "@babel/preset-typescript": ^7.9.0
+    "@hot-loader/react-dom": ^16.13.0
+    "@loadable/babel-plugin": ^5.12.0
+    "@loadable/server": ^5.12.0
+    "@loadable/webpack-plugin": ^5.12.0
+    "@vtex/micro-core": ^1.1.1-alpha.16
+    babel-loader: ^8.1.0
+    css-loader: ^3.5.3
+    exenv: ^1.2.2
+    file-loader: ^6.0.0
+    fs-extra: ^9.0.0
+    mini-css-extract-plugin: ^0.9.0
+    optimize-css-assets-webpack-plugin: ^5.0.3
+    pnp-webpack-plugin: ^1.6.4
+    purgecss-webpack-plugin: ^2.2.0
+    terser-webpack-plugin: ^3.0.1
+    time-fix-plugin: ^2.0.6
+    webpack: ^4.43.0
+    webpack-blocks: ^2.1.0
+    webpack-dynamic-public-path: ^1.0.5
+    webpack-messages: ^2.0.4
+  peerDependencies:
+    "@loadable/component": "*"
+    react: "*"
+    react-dom: "*"
+  checksum: 4cd781cb4e5ce73299105c96684e5f49c0a43ceed8764f3182c7132c048a17f48401817fd9091858635ada5b793bbb8899fbc2a6c424959f832d54f7e89ea962
+  languageName: node
+  linkType: hard
+
+"@vtex/micro-react@npm:^1.1.1-alpha.9":
   version: 1.1.1-alpha.13
   resolution: "@vtex/micro-react@npm:1.1.1-alpha.13"
   dependencies:
@@ -2012,11 +2101,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vtex/micro-server@npm:^1.1.1-alpha.13":
-  version: 1.1.1-alpha.13
-  resolution: "@vtex/micro-server@npm:1.1.1-alpha.13"
+"@vtex/micro-server@npm:^1.1.1-alpha.16":
+  version: 1.1.1-alpha.16
+  resolution: "@vtex/micro-server@npm:1.1.1-alpha.16"
   dependencies:
-    "@vtex/micro-core": ^1.1.1-alpha.13
+    "@vtex/micro-core": ^1.1.1-alpha.16
     "@yarnpkg/fslib": ^2.0.0-rc.20
     "@yarnpkg/libzip": ^2.0.0-rc.11
     compression: ^1.7.4
@@ -2026,7 +2115,7 @@ __metadata:
     mime-types: ^2.1.27
     morgan: ^1.10.0
     pretty: ^2.0.0
-  checksum: 68548d0975a69181a0de17af152a167f0d150998bfb71363b984868e0b85df0194b22df488c71403e9806cb844da26f440db7cd6d95e7d44eb285be227bb3030
+  checksum: 548289947c1b866356bd07671dd64f882ab28f66005d5cc1ce865351d22194d63624f7d515809f95f455fec5810423eb041cf195e7b3fc4311341d935c95f1ae
   languageName: node
   linkType: hard
 
@@ -7070,13 +7159,13 @@ fsevents@~2.1.2:
     "@types/webpack-blocks": ^2.0.0
     "@typescript-eslint/eslint-plugin": ^3.0.2
     "@typescript-eslint/parser": ^3.0.2
-    "@vtex/micro-assets": ^1.1.1-alpha.13
-    "@vtex/micro-cli": ^1.1.1-alpha.13
-    "@vtex/micro-core": ^1.1.1-alpha.13
-    "@vtex/micro-css": ^1.1.1-alpha.13
-    "@vtex/micro-react": ^1.1.1-alpha.13
-    "@vtex/micro-react-intl": ^1.1.1-alpha.13
-    "@vtex/micro-react-router": ^1.1.1-alpha.13
+    "@vtex/micro-assets": ^1.1.1-alpha.16
+    "@vtex/micro-cli": ^1.1.1-alpha.16
+    "@vtex/micro-core": ^1.1.1-alpha.16
+    "@vtex/micro-css": ^1.1.1-alpha.16
+    "@vtex/micro-react": ^1.1.1-alpha.16
+    "@vtex/micro-react-intl": ^1.1.1-alpha.16
+    "@vtex/micro-react-router": ^1.1.1-alpha.16
     "@vtex/styleguide": 9.119.0-micro.4
     babel-plugin-inline-json-import: ^0.3.2
     babel-plugin-transform-remove-imports: ^1.3.2
@@ -7088,6 +7177,7 @@ fsevents@~2.1.2:
     eslint-plugin-react: ^7.20.0
     eslint-plugin-standard: ^4.0.1
     file-loader: ^6.0.0
+    pnpapi: ^0.0.0
     react: ^16.13.1
     react-dom: ^16.13.1
     recharts: ^1.8.5
