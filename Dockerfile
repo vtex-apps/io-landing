@@ -1,3 +1,7 @@
+# in the terminal, run:
+# docker build --tag io-landing:2.0.0 .
+# heroku container:push web
+# heroku container:release web
 FROM heroku/heroku:20
 
 # Install dependencies
