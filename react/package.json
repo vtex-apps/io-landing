@@ -1,6 +1,6 @@
 {
   "name": "vtex.io-landing",
-  "version": "1.2.1",
+  "version": "1.3.0",
   "scripts": {
     "lint": "tsc --noEmit && eslint --ext ts,tsx .",
     "lint:locales": "intl-equalizer"

@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [1.3.0] - 2021-06-22
+
 ### Added
 
 - Route to redirect to SFJ Onboarding
