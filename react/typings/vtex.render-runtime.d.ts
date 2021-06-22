@@ -22,8 +22,11 @@ declare module 'vtex.render-runtime' {
       emit: (eventName: string, eventId: string) => void
     }
     query: {
-      app: string
+      app?: string
       filePath?: string
+      account?: string
+      code?: string
+      state?: string
     }
   }
 }

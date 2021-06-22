@@ -15,5 +15,8 @@
   },
   "io.store-features": {
     "component": "Features"
+  },
+  "io.sfj-onboarding": {
+    "component": "OnboardingSFJ"
   }
 }
