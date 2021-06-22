@@ -12,5 +12,8 @@
   },
   "io.store-features": {
     "path": "/store-features"
+  },
+  "io.sfj-onboarding": {
+    "path": "/sfj-onboarding"
   }
 }
