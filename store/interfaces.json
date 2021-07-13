@@ -16,7 +16,7 @@
   "io.store-features": {
     "component": "Features"
   },
-  "io.sfj-onboarding": {
-    "component": "OnboardingSFJ"
+  "io.storefront-onboarding": {
+    "component": "Onboarding"
   }
 }
